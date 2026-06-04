@@ -1119,7 +1119,7 @@ Respond ONLY with valid JSON (no markdown, no preamble):
                     The FairHome Valuator tells you what's fair. The Luxembourg Home Buyer Simulator tells you what government benefits you qualify for, your monthly repayments, and whether it fits your budget.
                   </div>
                 </div>
-                <button className="btn-sim" onClick={()=>window.open(import.meta.env.VITE_SIMULATOR_URL||"#","_blank")}>
+                <button className="btn-sim" onClick={()=>window.open("https://homeadvisor-lx.vercel.app/","_blank")}>
                   Open Simulator →
                 </button>
               </div>
